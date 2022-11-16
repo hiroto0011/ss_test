@@ -1,0 +1,24 @@
+.banner_heading{
+	position: relative;/*ç›¸å¯¾é…ç½®*/
+}
+
+.banner_heading h1 {
+  position: absolute;/*çµ¶å¯¾é…ç½®*/
+  top: 4px;
+  left: 60px;
+	font-size:16px;
+	color:white;
+  }
+
+.banner_heading h2{
+	position: absolute;/*çµ¶å¯¾é…ç½®*/
+	top: 2px;
+	left: 17px;
+	font-size:14px;
+	color:black;
+}
+
+
+.banner_heading img {
+  width: 100%;
+}

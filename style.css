@@ -1,0 +1,454 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	line-height: 120%;
+}
+
+img {
+	border: 0px;
+}
+
+img.c-arrow {
+	margin: 10px auto;
+}
+
+body html {
+	height: 100%;
+	margin: 0;         /* ??????????‰???? */
+  padding: 0;        /* ??????????‰???? */
+  width:100%;
+}
+
+body {
+	font-family: "MS PGothic", "MS Mincho";
+	background: url('images/background/bg.gif') repeat-y center;
+
+}
+
+table.default {
+	border-top-style: solid 1px #333333;
+	border-left-style:solid 1px #333333;
+	border-collapse: collapse
+}
+.default td, th {
+	border: 1px solid #333333;
+	padding: 2px;
+}
+.default th {
+	background-color: #E4E4F0
+}
+
+table.center {
+	border-top-style: solid 1px #333333;
+	border-left-style: solid 1px #333333;
+	border-collapse:collapse;
+	font-size: 90%;
+}
+.center td, th {
+	border: 1px solid #333333;
+	padding: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+.center th {
+	background-color: #E4E4F0;
+}
+
+span.txt-blue1 {
+	color: #000099;
+}
+/*
+.dbox, .dbox2, .dbox3 {
+	border:solid 1px #222222;
+	width: 250px;
+	height: 300px;
+}*/
+.dbox {
+	border:solid 1px #222222;
+	width: 250px;
+	height: 290px;
+
+}
+.dbox2 {
+	border:solid 1px #222222;
+	width: 250px;
+	height: 250px;
+
+}
+.dbox3 {
+	border:solid 1px #222222;
+	width: 250px;
+	height: 210px;
+}
+
+.sub {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+
+
+.desc {	
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top : 10px;
+	margin-bottom: 20px;
+}
+
+.desc_sub{
+	width:450px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top : 10px;
+	margin-bottom: 20px;
+}
+
+
+.desc_ad{
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top : 10px;
+	margin-bottom: 30px;
+}
+
+
+
+
+.addr {
+	font-size: 8pt;
+	color: #994C00;
+	font-family: "Tahoma", "Verdana", "Sans-Serif";
+}
+
+#contents {
+	//width: 100%;
+	position: relative;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+
+	width: 700px;
+	margin : 0px auto;
+	font-size: 11pt;
+	color: #333333;
+	overflow: hidden;
+	//background: url('images/background/bg.gif') repeat-y center;
+	padding:0px 10px;
+	/*background: url('images/background/lbg.gif'),url('images/background/rbg.gif');
+	background-repeat: repeat-y;
+	background-position: left,right;*/
+
+}
+
+#top {
+	width: 700px;
+	//height: 66px;
+	//background: url("images/banner/sucseed.png");
+
+	position: fixed;            /* ????????????????????? */
+  top: 0px;                   /* ??????(???0px) */
+  //left: 0px;                  /* ??????(???0px) */
+  //width: 100%;                /* ?¨???…100%???*/
+  height: 117px;              /* ?????…140px */
+
+	z-index:100;
+
+}
+
+#side {
+	/*background-color: #EAF2EB;*/
+	width: 160px;
+	/*min-height:650px;*/
+	/*height: 800px;*/
+	float: left;
+	/*padding-top: 20px;*/
+	overflow :visible;
+
+	padding:117px 0 56px 0;    /* ?????????160px??’????????’?????? */
+}
+
+#side2 {
+	background-color: #EAF2EB;
+	width: 150px;
+	clear: none;
+	float: left;
+	padding-top: 10px;
+	margin-left:5px;
+	overflow :visible;
+}
+
+
+#side #left-navigation {
+	width: 150px;
+	margin: 10px auto;
+}
+
+#side #sponsor {
+	border: 1px solid #CCCCCC;
+	min-height:270px;
+	padding: 2px 5px;
+	margin: 2px auto;
+	word-wrap: break-word;
+}
+
+#side #sponsor .box {
+	margin: 10px 0px;
+}
+
+#side #sponsor .box .title {
+	font-weight: bold;
+	font-family: "Tahoma", "Verdana", "Sans-Serif";
+	text-align: center;
+}
+
+#side #sponsor .box .addr {
+	font-size: 8pt;
+	color: #994C00;
+	font-family: "Tahoma", "Verdana", "Sans-Serif";
+}
+
+/* main */
+#main {
+	padding-bottom: 100px;
+	padding-bottom: 20px;
+	/*min-height: 475px;*/
+	width: 540px;
+	text-align:left;
+	clear: none;
+	float: right;
+	overflow: hidden;
+
+	padding:117px 0 56px 0;    /* ?????????160px??’????????’?????? */
+
+}
+
+#main ul {
+	margin-left: 30px;
+	width: 490px;
+}
+
+#main li {
+	list-style-image: url('http://www.sucseed.jp/img/new-images/icon/right-arrow.gif');
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+/* footer */
+#footer {
+	/*position: absolute;/*←絶対位置*/
+	position:fixed;
+  /*width: 100%;
+  height: 100px;*/
+
+	bottom:0;
+	background-image:url("images/bar/footer.png");
+	clear: both;
+	width: 700px;
+	margin: 0px auto;
+	//line-height: 14pt;
+	font-size: 90%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	z-index:100;
+
+}
+
+.special a:link {
+	color:#FFFFFF
+
+}
+.special a:visited {
+	color:#FFFFFF
+
+}
+
+
+#menu {
+	width: 150px;
+	text-align:center;
+	list-style: none;
+	margin:0px;
+}
+
+#menu ul {
+	width: 150px;
+	list-style: none;
+	font-weight:bold;
+	margin:0px;
+}
+
+#menu li {
+	width: 150px;
+	list-style: none;
+	margin:0px;
+}
+
+#menu li a {
+	width: 150px;
+	font-weight: nomal;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	padding-bottom:5px;
+	background:#000099 url(images/background/kyuubo_back.png);
+	font:"?????? ??°??´?????????";
+	list-style: none;
+	margin:0px;
+}
+
+#menu li a:hover {
+	width: 150px;
+    background:#CCFFFF url(images/background/kyuubo_back2.png);
+	font:"?????? ??°??´?????????";
+	list-style: none;
+	margin:0px;
+}
+
+.text_back {
+   margin-right:20px;
+   margin-left:20px;
+   margin-top:10px;
+   margin-bottom:10px;
+   background-color:#f6f6ff;
+}
+
+.c_list{ width:510px; border:#003399 solid 2px; border-collapse:collapse;}
+.c_icon{ width:80px; height:120px;
+	border-top:#0099FF solid 1px;
+	border-left:#0099FF solid 1px;
+	border-bottom:#0099FF solid 1px;
+}
+.c_name{ width:90px;
+	border-top:#0099FF solid 1px;
+	border-right:#0099FF solid 1px;
+	border-bottom:#0099FF solid 1px;
+}.flush {
+	float: left;
+	height: 64px;
+	width: 128px;
+	margin: 25px;
+}
+
+.top_image{
+	margin: 0px 0px 10px 0px;
+}
+
+.top_bar{
+	margin: 20px 0px;
+	position: relative;/*???????…????*/
+
+}
+
+.top_bar h1 {
+  position: absolute;/*??¶????…????*/
+	top: 5px;
+	left: 10px;
+	font-size:20px;
+	color:white;
+  }
+
+.top_bar img {
+  width: 100%;
+  }
+
+
+.head_enterteiment{
+	position: relative;/*???????…????*/
+	margin-bottom: 10px;
+}
+
+.head_enterteiment h1 {
+  position: absolute;/*??¶????…????*/
+  top: 0px;
+  left: 10px;
+	font-size:16px;
+  }
+
+.head_enterteiment img {
+  width: 100%;
+  }
+
+.topic_enterteiment_right {
+	/*padding: 0px 15px;*/
+	padding-right: 15px;
+}
+
+.topic_enterteiment_left {
+	/*padding: 0px 15px;*/
+	padding-left: 15px;
+}
+
+.topic_enterteiment_left .img_topic_left{
+	padding-bottom:10px;
+}
+.topic_enterteiment_right .img_topic_right{
+	padding-bottom:10px;
+}
+
+.img_topic_right{
+	padding-left: 15px;
+}
+.img_topic_left{
+	padding-right: 15px;
+}
+
+
+.topic_long{
+	padding: 0px 15px;
+}
+
+
+.LinkBox {
+	text-align: center;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 128px;
+	width: 178px;
+	float: left;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}
+.linktextbox {
+	height: 128px;
+	width: 350px;
+	padding: 0px;
+	border: 1px solid #CCC;
+	float: left;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+.linktextbox p{
+	padding:0px 10px;
+}
+
+.access_map{
+	padding: 0px 10px;
+}
+
+div .img_flow{
+	text-align:center;
+	padding-bottom: 15px;
+}
